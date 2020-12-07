@@ -40,7 +40,7 @@ print(nx.info(G)) # Alternativa para não precisar usar um comando para cada inf
 H = nx.path_graph(10)
 nx.draw(H, with_labels=1)
 ```
-![exemplo 2](https://github.com/FordPrefect12/Projeto---NetworkX.github.io/blob/main/Exemplo%202.png)
+![Exemplo 2](https://user-images.githubusercontent.com/75582082/101302247-d3949500-3819-11eb-803c-d8ffd6c11090.png)
 
 ## Exemplo 3:
 - Criando um grafo com um número de nodes pré-determinado e conectados entre si
@@ -48,7 +48,7 @@ nx.draw(H, with_labels=1)
 Z = nx.complete_graph(10)
 nx.draw(Z, with_labels=1)
 ```
-![Exemplo 3](https://github.com/FordPrefect12/Projeto---NetworkX.github.io/blob/main/Exemplo%203.png)
+![Exemplo 3](https://user-images.githubusercontent.com/75582082/101302262-e3ac7480-3819-11eb-9573-9ed9a777e3aa.png)
 
 ```python
 print(nx.info(Z))
@@ -65,7 +65,7 @@ print(nx.info(Z))
 Y = nx.gnp_random_graph(10, 0.5)
 nx.draw(Y, with_labels=True)
 ```
-![Exemplo 4](https://github.com/FordPrefect12/Projeto---NetworkX.github.io/blob/main/Exemplo%204.png)
+![Exemplo 4](https://user-images.githubusercontent.com/75582082/101302273-ee670980-3819-11eb-885a-e165c92cb6c6.png)
 
 ```python
 print(nx.info(Y))
@@ -132,7 +132,7 @@ Z = nx.compose(U,C)
 ```python
 nx.draw_shell(Z, with_labels=True)
 ```
-![Tentativa 1](https://github.com/FordPrefect12/Projeto---NetworkX.github.io/blob/main/Tentativa%201.png)
+![Tentativa 1](https://user-images.githubusercontent.com/75582082/101302287-fa52cb80-3819-11eb-9430-2342ab27fedb.png)
 
 ```python
 print(nx.info(Z))
@@ -198,7 +198,7 @@ H.add_node('Pedro', weight= 0)
 ```python
 nx.draw(H, with_labels=True)
 ```
-![Tentativa 2](https://github.com/FordPrefect12/Projeto---NetworkX.github.io/blob/main/Tentativa%202.png)
+![Tentativa 2](https://user-images.githubusercontent.com/75582082/101302298-063e8d80-381a-11eb-9d23-a9ac8b985eaa.png)
 
 ```python
 print(nx.info(H))
@@ -315,7 +315,7 @@ import matplotlib as plt
 ```python
 nx.draw(graph, node_size=10, node_color='C1')
 ```
-![Exemplo Rodrigo](https://github.com/FordPrefect12/Projeto---NetworkX.github.io/blob/main/Exemplo%20Rodrigo.png)
+![Exemplo Rodrigo](https://user-images.githubusercontent.com/75582082/101302331-18203080-381a-11eb-81ed-6b868bd810ea.png)
 
 ```python
 ?nx.draw
