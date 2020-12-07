@@ -105,7 +105,7 @@ print(np.average(total_of_edges))
 ```
     22.4839
     
-## Exemplos aplicados:
+## Exemplos Aplicados Básicos:
 ### Tentativa 1 (Excel):
 ```python
 import networkx as nx
